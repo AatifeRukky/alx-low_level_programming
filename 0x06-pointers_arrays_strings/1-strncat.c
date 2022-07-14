@@ -1,16 +1,16 @@
 #include "main.h"
 /**
-* _strncat 
-* @dest:input string
+* _strncat - two strings
+* @dest: input sring
 * @src: input string
-* @n: times
+* @n: times to iterations
 * Return: dest
 */
 char *_strncat(char *dest, char *src, int n)
 {
 int a;
 int b;
-a = 0
+a = 0;
 while (dest[a] != 0)
 {
 	a++;
